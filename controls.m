@@ -7,7 +7,8 @@ while 1
     touch = brick.TouchPressed(1);
     touch2 = brick.TouchPressed(2);
     if touch || touch2
-        brick.playTone(100, 15000, 90);
+        brick.playTone(100, 15000, 40);
+        brick.playTone(100, 15000, 40);
     end
     switch key
         case 'm'
